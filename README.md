@@ -1,7 +1,7 @@
-Guia de Conformidade em Privacidade: Conectando a Lacuna Entre as Leis
+Privacy Compliace Guide: Bridging the Gap Between Laws
 
-Este guia oferece percepções para organizações sobre como avaliar a conformidade com padrões-chave de proteção de dados, como ISO/IEC 29100 e Privacy by Design. Ele serve como uma ferramenta prática para promover um conjunto unificado de diretrizes de privacidade, abordando desafios comuns, como limitações orçamentárias e requisitos legais pouco claros.
+This guide provides insights for organizations on evaluating compliance with key data protection standards like ISO/IEC 29100 and Privacy by Design. It serves as a practical tool to promote a unified set of privacy guidelines while addressing common challenges, such as budget constraints and unclear legal requirements.
 
-Dividido em seções como Escopo e Definições, o guia explica termos-chave de privacidade e cobre a relação entre a LGPD e outras leis. Ele também apresenta um jogo interativo que permite aos usuários comparar estruturas de conformidade e avaliar sua eficácia em atender aos requisitos legais (Princípios e Direitos).
+Divided into sections such as Scope and Definitions, the guide explains key privacy terms and covers the relationship between the LGPD and other laws. It also features an interactive game that allows users to compare compliance frameworks and assess their effectiveness in meeting legal requirements (Principles and Rights).
 
-Ao abordar as complexidades da conformidade em proteção de dados, o guia serve como um recurso valioso para equipes de desenvolvimento, ajudando-as a navegar pelas regulamentações de privacidade enquanto compreendem a relevância dos padrões estabelecidos em suas práticas comerciais.
+By addressing the complexities of data protection compliance, the guide serves as a valuable resource for development teams, helping them navigate privacy regulations while understanding the relevance of established standards in their business practices.
