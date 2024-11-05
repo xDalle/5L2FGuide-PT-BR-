@@ -110,33 +110,33 @@
 		];
 
 		const pbDMessages = [
-			"Finalidade = Proativo, não Reativo; Preventivo, não Corretivo: Este princípio enfatiza a necessidade de medidas proativas para proteger a privacidade, em vez de reativas.",
-			"Adequação = Privacidade por Padrão: Este princípio garante que a configuração padrão de qualquer sistema seja amigável à privacidade.",
-			"Necessidade = Privacidade Incorporada ao Design: A privacidade deve ser integrada ao design e à arquitetura de sistemas de informação e práticas de negócios.",
+			"",
+			"Adequação = Privacidade por Padrão: A configuração padrão de qualquer sistema deve ser amigável à privacidade.",
+			"Necessidade = Proativo, não Reativo; Preventivo, não Corretivo: É necessário adotar medidas proativas para proteger a privacidade, em vez de reativas; Privacidade por Padrão: A configuração, por padrão, de qualquer sistema, deve ser amigável à privacidade; Privacidade Incorporada ao Design: A privacidade deve ser integrada ao design e à arquitetura de sistemas de informação e práticas de negócios.",
 			"Livre Acesso = Visibilidade e Transparência: As organizações devem tornar suas práticas de dados transparentes para os usuários.",
-			"Qualidade dos Dados = Funcionalidade Completa: Somatório Positivo, não Somatório Zero: Este princípio defende a realização tanto da privacidade quanto da funcionalidade.",
+			"Qualidade dos Dados = Proativo, não Reativo; Preventivo, não Corretivo: É necessário adotar medidas proativas para proteger a privacidade, em vez de reativas.",
 			"Transparência = Visibilidade e Transparência: As organizações devem tornar suas práticas de dados transparentes para os usuários.",
 			"Segurança = Proteção do Ciclo de Vida de Ponta a Ponta: Os dados devem ser protegidos contra acesso não autorizado e violações.",
-			"Prevenção = Proativo, não Reativo; Preventivo, não Corretivo: Este princípio enfatiza a necessidade de medidas proativas para proteger a privacidade, em vez de reativas.",
-			"",
-			"Responsabilização = Respeito à Privacidade do Usuário: As organizações devem respeitar e manter a privacidade dos usuários durante todo o ciclo de vida dos dados."
+			"Prevenção = Proativo, não Reativo; Preventivo, não Corretivo: É necessário adotar medidas proativas para proteger a privacidade, em vez de reativas.",
+			"Não Discriminação = Respeito à Privacidade do Usuário: As organizações devem respeitar e manter a privacidade dos usuários durante todo o ciclo de vida dos dados.",
+			""
 		];
 
 		const isoMessages = [
-			"Finalidade = Especificação e legitimidade de objetivo: Os dados pessoais devem ser coletados para fins específicos e legítimos que sejam claramente comunicados ao indivíduo.",
-			"Adequação = Especificação e legitimidade de objetivo: Os dados pessoais devem ser coletados para fins específicos e legítimos que sejam claramente comunicados ao indivíduo.",
-			"Necessidade = Limitação de coleta: As organizações devem limitar a coleta de dados pessoais ao que é estritamente necessário para o propósito especificado, evitando a coleta de dados desnecessários.",
-			"Livre Acesso = Abertura, transparência e notificação: Os indivíduos devem ter acesso a informações claras sobre como seus dados estão sendo coletados e processados, promovendo a transparência nas práticas de manejo de dados.",
+			"Finalidade = Consentimento e escolha: Os indivíduos devem ser informados e ter uma escolha genuína em relação à coleta, uso e divulgação de seus dados pessoais.",
+			"Adequação = Limitação de coleta: As organizações devem limitar a coleta de dados pessoais ao que é estritamente necessário para o propósito especificado, evitando a coleta de dados desnecessários.",
+			"Necessidade = Minimização de dados: Os dados pessoais coletados devem ser limitados ao que é necessário para os fins especificados, garantindo que informações excessivas ou irrelevantes não sejam reunidas.",
+			"Livre Acesso = Acesso e participação individual: Os indivíduos devem ter o direito de acessar seus dados pessoais mantidos pelas organizações e poder participar das decisões relacionadas ao seu uso.",
 			"Qualidade dos Dados = Precisão e qualidade: As organizações devem garantir que os dados pessoais sejam precisos, completos e mantidos atualizados. Os dados devem ser mantidos de uma forma que esteja alinhada com o propósito da coleta.",
 			"Transparência = Abertura, transparência e notificação: Os indivíduos devem ter acesso a informações claras sobre como seus dados estão sendo coletados e processados, promovendo a transparência nas práticas de manejo de dados.",
 			"Segurança = Segurança da informação: Medidas de segurança adequadas devem estar em vigor para proteger os dados pessoais contra acesso não autorizado, perda ou violação, garantindo sua confidencialidade e integridade.",
-			"Prevenção = Segurança da informação: As organizações devem adotar medidas que previnam danos aos indivíduos resultantes do uso indevido ou manuseio inadequado de dados pessoais. Isso inclui avaliar riscos e tomar medidas proativas para mitigá-los.",
-			"Não Discriminação = Limitação de coleta: As práticas de manejo de dados devem ser justas, tratando os indivíduos de forma equitativa, sem discriminação, garantindo a conformidade com as obrigações legais.",
+			"Prevenção = Compliance com a privacidade: As organizações devem cumprir as leis e regulamentos aplicáveis ao processamento de dados pessoais, garantindo que os direitos de privacidade sejam respeitados e mantidos.",
+			"",
 			"Responsabilização = Responsabilização: As organizações são responsáveis por garantir a conformidade com os padrões de privacidade de dados e devem ser capazes de demonstrar responsabilidade em suas atividades de processamento de dados."
 		];
 
-		const pbDPrinciples = [1, 2, 3, 4, 5, 6, 7, 8, 10];
-		const isoPrinciples = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+		const pbDPrinciples = [2, 3, 4, 5, 6, 7, 8, 9];
+		const isoPrinciples = [1, 2, 3, 4, 5, 6, 7, 8, 10];
 
 		const combinedPrinciples = [...new Set([...pbDPrinciples, ...isoPrinciples])];
 
@@ -294,7 +294,7 @@
 					<div class="principles-found"><span>&#9989;</span> Princípios identificados (Privacy by Design): <strong>{${pbDFound.join(', ')}}</strong></div>
                     ${pbDMessagesFound.length > 0 ? `<div class="principles-equivalence"><strong>Equivalência com Privacy by Design:</strong> <br><br> <span>&#9989</span> ${pbDMessagesFound.join('<br> <span>&#9989</span> ')}</div>` : ''}
 					<br>
-                    <div class="principles-list">ISO/IEC 29100: ${pbDPercentage}%</div>
+                    <div class="principles-list">ISO/IEC 29100: ${isoPercentage}%</div>
 					<div class="principles-found"><span>&#9989;</span> Princípios identificados (ISO/IEC 29100): <strong>{${isoFound.join(', ')}}</strong></div>
 					${isoMessagesFound.length > 0 ? `<div class="principles-equivalence"><strong>Equivalência com ISO/IEC 29100:</strong> <br><br> <span>&#9989</span> ${isoMessagesFound.join('<br> <span>&#9989</span> ')}</div>` : ''}
 					<br>
